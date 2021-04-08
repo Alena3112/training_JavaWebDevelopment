@@ -1,88 +1,101 @@
 body {
-  width: 1024px;
-  margin: auto;
+    width: 1024px;
+    margin: auto;
+  
+    font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+    font-size: 14pt; /* Размер основного шрифта в пунктах  */
+    background-color: #d2dbee; /* Цвет фона веб-страницы */
+    color: rgb(168, 204, 233); /* Цвет основного текста */
+  }
+  li {
+    font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+    font-size: 14pt; /* Размер основного шрифта в пунктах  */
+  
+    color: #333; /* Цвет основного текста */
+  }
+  
+  h1 {
+    color: #041516; /* Цвет заголовка */
+    font-size: 24pt; /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста */
+  }
+  a {
+    color: #2b087c;
+  }
+  p {
+    text-align: justify; /* Выравнивание по ширине */
+    margin-left: 60px; /* Отступ слева в пикселях */
+    margin-right: 10px; /* Отступ справа в пикселях */
+  }
+  
+  h2 {
+    background: linear-gradient(to right, #1f12d6, #efecf7);
+    width: 100%;
+    clear: both;
+    color: #34a5da;
+  }
+  
+  .first {
+    width: 100%;
+    float: left;
+    background: linear-gradient(to right, #81b5d3, #efecf7);
+    border-radius: 25px;
+    clear: both;
+    margin-bottom: 0;
+  }
+  .first img {
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+  }
+  .adress {
+    width: 80%;
+    float: left;
+  
+    background: #81b5d3;
+    width: 20%;
+    color: #34a5da;
+    clear: both;
+    line-height: 30px;
+    margin-bottom: 0;
+    height: 1000px;
+  }
+  .work {
+    padding-top: 0;
+    margin-bottom: 0;
+    width: 20%;
+    height: 1000px;
+    float: right;
+    background: #ddeff0;
+    width: 80%;
+    color: #110101;
+    clear: both;
+    line-height: 30px;
+    margin-top: 0;
+    transform: translateY(-100%);
+  }
+  .circle .image-wrap {
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+  }
+  ul {
+    list-style-type: square;
+  }
+  .code{
+    font-size: 11pt;
+  }
+.experience{
+  margin-top: 10px;
+}
+.online-zoo{
+ 
+  text-decoration: none;
+  margin-left: 50px;
 
-  font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
-  font-size: 14pt; /* Размер основного шрифта в пунктах  */
-  background-color: #d2dbee; /* Цвет фона веб-страницы */
-  color: rgb(168, 204, 233); /* Цвет основного текста */
-}
-li {
-  font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
-  font-size: 14pt; /* Размер основного шрифта в пунктах  */
-
-  color: #333; /* Цвет основного текста */
-}
-
-h1 {
-  color: #041516; /* Цвет заголовка */
-  font-size: 24pt; /* Размер шрифта в пунктах */
-  font-family: Georgia, Times, serif; /* Семейство шрифтов */
-  font-weight: normal; /* Нормальное начертание текста */
-}
-a {
-  color: #2b087c;
-}
-p {
-  text-align: justify; /* Выравнивание по ширине */
-  margin-left: 60px; /* Отступ слева в пикселях */
-  margin-right: 10px; /* Отступ справа в пикселях */
-}
-
-h2 {
-  background: linear-gradient(to right, #1f12d6, #efecf7);
-  width: 100%;
-  clear: both;
-  color: #34a5da;
-}
-
-.first {
-  width: 100%;
-  float: left;
-  background: linear-gradient(to right, #81b5d3, #efecf7);
-  border-radius: 25px;
-  clear: both;
-  margin-bottom: 0;
-}
-.first img {
-  -webkit-border-radius: 50em;
-  -moz-border-radius: 50em;
-  border-radius: 50em;
-}
-.adress {
-  width: 80%;
-  float: left;
-
-  background: #81b5d3;
-  width: 20%;
-  color: #34a5da;
-  clear: both;
-  line-height: 30px;
-  margin-bottom: 0;
-  height: 1000px;
-}
-.work {
-  padding-top: 0;
-  margin-bottom: 0;
-  width: 20%;
-  height: 1000px;
-  float: right;
-  background: #ddeff0;
-  width: 80%;
-  color: #110101;
-  clear: both;
-  line-height: 30px;
-  margin-top: 0;
-  transform: translateY(-100%);
-}
-.circle .image-wrap {
-  -webkit-border-radius: 50em;
-  -moz-border-radius: 50em;
-  border-radius: 50em;
-}
-ul {
-  list-style-type: square;
-}
-.code{
-  font-size: 11pt;
+ }
+   
+.piano{
+  text-decoration: none;
 }
